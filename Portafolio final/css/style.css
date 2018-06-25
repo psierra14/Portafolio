@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+body{
+	font-family:"Didot";
+	font-size: 14px;
+	color: #333;
+}
+header{
+	background-color: #363636;
+	padding: 20px 0;
+}
+
+#sec-intro{
+	background-image: url(../../../Documents/Documents/Multimedia/Portafolio/img/IMG_9132.JPG;);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+	text-align: center;
+}
+		
+.bg-intro{
+	padding: 100px 0;
+	min-height: 500px;
+	background-color: rgba(13, 70, 83, 0.78);
+}
+
+#sec-slides .carousel-caption{margin-top: 160px;}
+#sec-slides .carousel-caption h2{text-align: center;
+font-size: 30px;
+	margin-top: 300px;
+}
+#sec-slides .carousel-caption p{text-align: center;
+font-size: 50px;
+	font-weight: bold;
+}
+
+#sec-intro h2{
+	font-size: 45px;
+	text-transform: uppercase;
+	font-weight: bold;	
+}
+#sec-intro p{
+	font-size: 18px;
+}
+
+#sec-about{background-color: #465977; align-content: center;padding: 45px 0px;}
+#sec-about h2{color: #FFFFFF;font-size: 40px;font-weight: 300px;text-align: center; border-bottom: #FFFFFF solid 1px;}
+#sec-about h4{color: #FFFFFF;font-size: 18px;padding-top: 10px}
+#sec-about h3{color: #FFFFFF;font-size: 26px;}
+#sec-about p{color: #FFFFFF;font-size: 18px;}
+
+#sec-services{
+	text-align: center;
+	padding: 40px 0;
+}
+
+
+#sec-services p{
+	color: #999;
+}
+#sec-services h3{
+	color: #000;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.carousel .item{max-height: 600px;}
+.carousel-caption{padding-bottom: 10%;}
+.info-doctor{ position: absolute;width: 100%; height: 100%; top: 0; left: 0;background-color: rgba(7,167,164,0.65);color: rgba(255,255,255,1.00);text-align: center;display: flex;align-items: center;align-content: center; z-index:2;}
+
+
+.titulo{
+	font-size: 28px;
+	color: #000;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+.titulo::after{
+	content: '';
+	height: 3px;
+	background-color: #BA818C;
+	display: block;
+	margin: 15px 0;
+}
+
+#sec-proyectos{
+	background-color: #585858;
+	padding: 30px 0;
+}
+#sec-proyectos h2{
+	color: #FFFFFF;
+	
+}
+.borde{
+	border: 1px solid #ddd;
+	padding: 2px 5px 20px;
+	position: relative;
+}
+
+
+#map{
+	width: 100%;
+	height: 500px;
+}
+
+
+#sec-services i{
+	color: #BA818C;
+	font-size: 30px;
+	align-content: center;
+}
+.icono{width: 80px;height: 80px;line-height: 80px;color: #F86501;display: block;text-align: center;font-size: 22px;font-weight: 600;}
+
+.carousel .item{
+	max-height: 600px;
+}
+.carousel-caption{
+	padding-bottom: 15%;
+}
+
+
+
+
+.info-proyectos{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(157,157,157,0.51);
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	opacity: 0;
+	transition: all 0.4s ease-in-out;
+	z-index: 2;
+}
+
+.borde:hover .info-proyectos{
+	opacity: 1;
+	transition: all 0.4s ease-in-out;
+	cursor: pointer;
+}
+
+.info-proyectos .fas{
+	color: #fff;
+	font-size: 20px;
+}
+
+
+
+
+.cintillo{
+	position: absolute;
+	width: 100%;
+	height: 20%;
+	background-color: #223224;
+	bottom: 0;
+	left: 0;
+	padding: 15px;
+}
+.cintillo a{
+	color: #fff;
+}
+
+.sec-media h1{font-size: 60px;padding-top: 25px;font-weight: bold;}
+.sec-media .icono{width: 200px;height: 200px;line-height: 80px;color: #418BCC;display: block;text-align: center;font-size: 90px;font-weight: 600;padding-top: 50px;}
+.sec-media{
+	background-image: url(../img/VMC-HomePage-Banner-Image.jpg;);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #000000;
+	text-align: center;
+	opacity: 0.9;
+}
+
+#sec-contacto{background-color: #465977;padding-bottom: 35px;}
+#sec-contacto h2{font-size: 45px;padding-top: 25px;color: #FFFFFF}
+#sec-contacto label{color: #FFFFFF;}
+
+footer{color: #FFFFFF;
+	background-color: #585858;
+text-align: center;
+	padding: 35px 0px;
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
